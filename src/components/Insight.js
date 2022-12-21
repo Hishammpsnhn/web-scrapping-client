@@ -53,7 +53,7 @@ function Insight({ item }) {
                     <ul key={i}>
                         <li>
                             <a href={item} className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
-                                {item.length > 30 && (item = item.substring(0, 30))}...
+                                {item?.length > 30 && (item = item.substring(0, 30))}...
                             </a>
                         </li>
                     </ul>
